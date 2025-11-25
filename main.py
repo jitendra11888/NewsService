@@ -16,7 +16,7 @@ def get_news():
   "articles": [
     {
       "source": {
-        "id": null,
+        "id": "none",
         "name": "CoinDesk"
       },
       "author": "Omkar Godbole, AI Boost",
@@ -29,7 +29,7 @@ def get_news():
     },
     {
       "source": {
-        "id": null,
+        "id": "none",
         "name": "Motley Fool"
       },
       "author": "Geoffrey Seiler, Geoffrey Seiler",
@@ -42,10 +42,10 @@ def get_news():
     },
     {
       "source": {
-        "id": null,
+        "id": "none",
         "name": "BBC News"
       },
-      "author": null,
+      "author": "none",
       "title": "UK 'world's most expensive place' to develop nuclear power - BBC",
       "description": "Experts criticised “overly complex” rules and called for an overhaul of Britain's nuclear strategy.",
       "url": "https://www.bbc.com/news/articles/c5yq8jneqpdo",
@@ -55,7 +55,7 @@ def get_news():
     },
     {
       "source": {
-        "id": null,
+        "id": "none",
         "name": "KSL.com"
       },
       "author": "Sean Lyngaas and Evan Perez, CNN",
@@ -81,7 +81,7 @@ def get_news():
     },
     {
       "source": {
-        "id": null,
+        "id": "none",
         "name": "The Seattle Times"
       },
       "author": "David Gutman",
@@ -94,7 +94,7 @@ def get_news():
     },
     {
       "source": {
-        "id": null,
+        "id": "none",
         "name": "NPR"
       },
       "author": "",
@@ -107,7 +107,7 @@ def get_news():
     },
     {
       "source": {
-        "id": null,
+        "id": "none",
         "name": "Tipranks.com"
       },
       "author": "Shalu Saraf",
@@ -120,7 +120,7 @@ def get_news():
     },
     {
       "source": {
-        "id": null,
+        "id": "none",
         "name": "CNBC"
       },
       "author": "Anniek Bao",
@@ -133,7 +133,7 @@ def get_news():
     },
     {
       "source": {
-        "id": null,
+        "id": "none",
         "name": "Tipranks.com"
       },
       "author": "Marty Shtrubel",
@@ -146,7 +146,7 @@ def get_news():
     },
     {
       "source": {
-        "id": null,
+        "id": "none",
         "name": "CNBC"
       },
       "author": "Yun Li",
@@ -159,10 +159,10 @@ def get_news():
     },
     {
       "source": {
-        "id": null,
+        "id": "none",
         "name": "BBC News"
       },
-      "author": null,
+      "author": "none",
       "title": "Japan's gamble to turn island of flowers into global chip hub - BBC",
       "description": "The country once led the world in semiconductors and electronics, but over the years it fell behind Taiwan, South Korea and China.",
       "url": "https://www.bbc.com/news/articles/c8676qpxgnqo",
@@ -185,10 +185,10 @@ def get_news():
     },
     {
       "source": {
-        "id": null,
+        "id": "none",
         "name": "Investor's Business Daily"
       },
-      "author": null,
+      "author": "none",
       "title": "Bitcoin Rises With Futures Due; Three Titans In Focus - Investor's Business Daily",
       "description": "The stock market needs to show a lot of strength after damaging recent losses.",
       "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-bitcoin-nvidia-apple-eli-lilly/",
@@ -198,7 +198,7 @@ def get_news():
     },
     {
       "source": {
-        "id": null,
+        "id": "none",
         "name": "FX Empire"
       },
       "author": "James Hyerczyk",
@@ -211,7 +211,7 @@ def get_news():
     },
     {
       "source": {
-        "id": null,
+        "id": "none",
         "name": "TMZ"
       },
       "author": "TMZ Staff",
@@ -224,7 +224,7 @@ def get_news():
     },
     {
       "source": {
-        "id": null,
+        "id": "none",
         "name": "nj.com"
       },
       "author": "Advance Local Express Desk, Stephanie Loder | NJ Advance Media for NJ.com",
@@ -237,7 +237,7 @@ def get_news():
     },
     {
       "source": {
-        "id": null,
+        "id": "none",
         "name": "The-sun.com"
       },
       "author": "Jacob Willeford",
@@ -250,7 +250,7 @@ def get_news():
     },
     {
       "source": {
-        "id": null,
+        "id": "none",
         "name": "CNBC"
       },
       "author": "Jim Cramer",
@@ -259,7 +259,7 @@ def get_news():
       "url": "https://www.cnbc.com/2025/11/23/cramer-googles-gemini-puts-openai-on-shakier-ground-with-big-market-implications-.html",
       "urlToImage": "https://image.cnbcfm.com/api/v1/image/108222498-1762449245023-gettyimages-2236546488-STARGATE_DATA_CENTER.jpeg?v=1763922866&w=1920&h=1080",
       "publishedAt": "2025-11-23T19:25:55Z",
-      "content": null
+      "content": "none"
     }
   ]
 }
