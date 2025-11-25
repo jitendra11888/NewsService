@@ -7,6 +7,7 @@ from flask import Flask, jsonify, request
 app=Flask(__name__)   
 
 
+
 @app.get("/news")
 def get_news():
     response = {
@@ -58,5 +59,4 @@ def get_news():
     return jsonify(content=response)
 
 if __name__ == "__main__":
-    print("Server started at http://localhost:5000")
-    app.run(debug=True)
+    app.run()
