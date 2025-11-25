@@ -10,7 +10,259 @@ app=Flask(__name__)
 
 @app.get("/news")
 def get_news():
-    response = {"status":"ok","totalResults":69,"articles":[{"source":{"id":null,"name":"CoinDesk"},"author":"Omkar Godbole, AI Boost","title":"Bitcoin Price (BTC) News: $40B in ETF Volume Signals Institutional Capitulation - CoinDesk","description":"The U.S.-listed spot bitcoin ETFs saw a record $40 billion in trading volume last week, with IBIT leading the way.","url":"https://www.coindesk.com/markets/2025/11/24/bitcoin-etfs-led-by-blackrock-s-ibit-see-record-usd40b-trading-volume-as-institutions-capitulate","urlToImage":"https://cdn.sanity.io/images/s3y3vcno/production/3417765811c38a57181abae66a079871b878e500-1920x1080.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg","publishedAt":"2025-11-24T05:32:37Z","content":"The 11 U.S.-listed spot bitcoin ETFs shattered trading records last week, with cumulative volumes surpassing $40.32 billion, indicating likely institutional capitulation.\r\nBlackRock's IBIT led the in… [+1112 chars]"},{"source":{"id":null,"name":"Motley Fool"},"author":"Geoffrey Seiler, Geoffrey Seiler","title":"The Real AI Battle Isn't in Chips -- It's in Compute Efficiency. Here's the Stock Positioned to Win. - The Motley Fool","description":"The company's structural cost advantage positions it to be the biggest AI winner.","url":"https://www.fool.com/investing/2025/11/23/the-real-ai-battle-isnt-chips-its-compute-efficien/","urlToImage":"https://g.foolcdn.com/image/?url=https%3A%2F%2Fg.foolcdn.com%2Feditorial%2Fimages%2F843438%2Fgettyimages-1480633240.jpg&w=1200&op=resize","publishedAt":"2025-11-24T04:15:00Z","content":"The company's structural cost advantage positions it to be the biggest AI winner.While investors are looking for who will be the big chip winner in artificial intelligence (AI), that's actually just … [+3980 chars]"},{"source":{"id":null,"name":"BBC News"},"author":null,"title":"UK 'world's most expensive place' to develop nuclear power - BBC","description":"Experts criticised “overly complex” rules and called for an overhaul of Britain's nuclear strategy.","url":"https://www.bbc.com/news/articles/c5yq8jneqpdo","urlToImage":"https://ichef.bbci.co.uk/news/1024/branded_news/8763/live/26c6e190-c8d6-11f0-a4bd-8d4044c2eec7.jpg","publishedAt":"2025-11-24T03:49:21Z","content":"Osmond ChiaBusiness reporter\r\nThe Sizewell nuclear power station\r\nThe UK has become the \"most expensive place in the world\" to build nuclear power plants, according to a government review detailing t… [+3352 chars]"},{"source":{"id":null,"name":"KSL.com"},"author":"Sean Lyngaas and Evan Perez, CNN","title":"Wall Street banks scramble to assess fallout from hack of real-estate data firm - KSL.com","description":"Hackers stole a trove of data from a company used by major Wall Street banks for real-estate loans and mortgages, setting off a scramble to determine what was taken and which banks were affected.","url":"https://www.ksl.com/article/51409606/wall-street-banks-scramble-to-assess-fallout-from-hack-of-real-estate-data-firm","urlToImage":"https://img.ksl.com/slc/3120/312099/31209950.jpg?filter=kslv2/responsive_story_lg","publishedAt":"2025-11-24T03:19:42Z","content":"NEW YORK CITY Hackers stole a trove of data from a company used by major Wall Street banks for real-estate loans and mortgages, setting off a scramble to determine what was taken and which banks were… [+2243 chars]"},{"source":{"id":"bloomberg","name":"Bloomberg"},"author":"Suvashree Ghosh, Isabelle Lee","title":"Bitcoin Weakness Persists as Crypto Steadies After Bruising Week - Bloomberg.com","description":"Bitcoin began the week on the back foot following a prolonged selloff that has put the token on track for its worst month since 2022.","url":"https://www.bloomberg.com/news/articles/2025-11-24/bitcoin-btc-weakness-persists-as-crypto-steadies-after-bruising-week","urlToImage":"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ibAqfa3z7b18/v0/1200x800.jpg","publishedAt":"2025-11-24T02:39:50Z","content":"Bitcoin began the week on the back foot following a prolonged selloff that has put the token on track for its worst month since 2022. \r\nAfter regaining some ground over the weekend, the original cryp… [+157 chars]"},{"source":{"id":null,"name":"The Seattle Times"},"author":"David Gutman","title":"Sea-Tac flights make refueling stops; no timeline to fix pipeline leak - The Seattle Times","description":"The source of the spill remains a mystery and travelers are beginning to see complications as airlines scramble to keep their planes gassed up.","url":"https://www.seattletimes.com/seattle-news/sea-tac-flights-make-refueling-stops-no-timeline-to-fix-pipeline-leak/","urlToImage":"https://images.seattletimes.com/wp-content/uploads/2025/11/11232025_tzr_tzr_172144.jpg?d=1200x630","publishedAt":"2025-11-24T02:05:55Z","content":"Nearly two weeks after a leak shut down the pipeline that delivers jet fuel to Seattle-Tacoma International Airport, the source of the spill remains a mystery and travelers are beginning to see compl… [+2642 chars]"},{"source":{"id":null,"name":"NPR"},"author":"","title":"The U.S. Transportation Department is urging air passengers to be on good behavior - NPR","description":"Transportation Secretary Sean Duffy wants air travelers to be nice this holiday season. A new DOT campaign asks passengers to help each other and thank flight attendants.","url":"https://www.npr.org/2025/11/23/nx-s1-5618289/sean-duffy-flights-civility-behavior-unruly-passengers-airports","urlToImage":"https://npr.brightspotcdn.com/dims3/default/strip/false/crop/473x266+0+201/resize/1400/quality/100/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fa1%2F3d%2Fc84f84c74845b1343045da84ad75%2Fduffy-air-civility.jpg","publishedAt":"2025-11-24T02:04:36Z","content":"The U.S. Department of Transportation is launching what it's calling a \"civility campaign\" to promote good behavior on flights and at airports, as the busy holiday travel season gets underway. The de… [+1692 chars]"},{"source":{"id":null,"name":"Tipranks.com"},"author":"Shalu Saraf","title":"Alibaba (BABA) Will Report Its Q2 Earnings on November 25. Here Is What to Expect - TipRanks","description":"Chinese e-commerce giant Alibaba ($BABA) will report Q2 FY26 earnings on Tuesday, November 25. The stock is up more than 83% year-to-date, supported by stronger fin...","url":"https://www.tipranks.com/news/alibaba-baba-will-report-its-q2-earnings-tomorrow-here-is-what-to-expect","urlToImage":"https://blog.tipranks.com/wp-content/uploads/2025/11/alibaba-4-750x406.jpg","publishedAt":"2025-11-24T00:28:47Z","content":""},{"source":{"id":null,"name":"CNBC"},"author":"Anniek Bao","title":"Australia's Qube Holdings' shares jump 20% as Macquarie proposes $7.5 billion takeover deal - CNBC","description":"Macquarie has offered to acquire Qube for AU$5.2 per share in cash, representing a nearly 28% premium to Qube's closing level of AU$4.07 on Friday.","url":"https://www.cnbc.com/2025/11/24/australia-qube-holdings-shares-jump-macquarie-takeover-deal.html","urlToImage":"https://image.cnbcfm.com/api/v1/image/108230648-1763941519081-gettyimages-2220275603-AUSTRALIA_MACQUARIE.jpeg?v=1763941533&w=1920&h=1080","publishedAt":"2025-11-24T00:16:00Z","content":"Australia's Qube Holdings announced on Monday that Macquarie Asset Management had submitted a non-binding proposal to acquire the logistics company at an enterprise value of 11.6 billion Australian d… [+3274 chars]"},{"source":{"id":null,"name":"Tipranks.com"},"author":"Marty Shtrubel","title":"Prediction: ‘XRP Price Will Crash Below $1,’ Says Investor - TipRanks","description":"The bears are officially in charge of the cryptosphere right now with coins across the board seemingly searching for a bottom. Only about a month and a half ago Bit...","url":"https://www.tipranks.com/news/prediction-xrp-price-will-crash-below-1-says-investor","urlToImage":"https://blog.tipranks.com/wp-content/uploads/2025/11/XRP-1123-750x406.jpg","publishedAt":"2025-11-23T23:43:21Z","content":""},{"source":{"id":null,"name":"CNBC"},"author":"Yun Li","title":"Dow futures rise 200 points as market attempts rebound into the holiday week: Live updates - CNBC","description":"The stock market is closed on Thursday for Thanksgiving Day, and ends early at 1 p.m. ET on Friday.","url":"https://www.cnbc.com/2025/11/23/stock-market-today-live-updates.html","urlToImage":"https://image.cnbcfm.com/api/v1/image/107099147-NYSE-Trading-Floor-OB-Photo-220804-CC-PRESS-4.jpg?v=1730846839&w=1920&h=1080","publishedAt":"2025-11-23T23:12:00Z","content":"Stock futures climbed in overnight trading Sunday as the market seeks to rebound into the Thanksgiving holiday week after a slide that's knocked the air out of this year's AI bull run.\r\nFutures on th… [+1408 chars]"},{"source":{"id":null,"name":"BBC News"},"author":null,"title":"Japan's gamble to turn island of flowers into global chip hub - BBC","description":"The country once led the world in semiconductors and electronics, but over the years it fell behind Taiwan, South Korea and China.","url":"https://www.bbc.com/news/articles/c8676qpxgnqo","urlToImage":"https://ichef.bbci.co.uk/news/1024/branded_news/83c4/live/46b3b420-c5b5-11f0-b602-51c15dd35a8c.jpg","publishedAt":"2025-11-23T23:11:13Z","content":"Suranjana TewariAsia business correspondent, Hokkaido, Japan\r\nHokkaido is a tourism and agricultural region, but Rapidus is making chips there too \r\nThe island of Hokkaido has long been an agricultur… [+8917 chars]"},{"source":{"id":"fortune","name":"Fortune"},"author":"Jason Ma","title":"'It didn't have to be this way' — Top economist warns affordability crisis will continue - Fortune","description":"\"Consumer price inflation is near 3%, well above the Fed’s inflation target, and everything points to even higher inflation dead-ahead.\"","url":"https://fortune.com/2025/11/23/affordability-crisis-inflation-outlook-trump-tariffs-immigration-crackdown-prices/","urlToImage":"https://fortune.com/img-assets/wp-content/uploads/2025/11/GettyImages-2234085635-e1763932686887.jpg?resize=1200,600","publishedAt":"2025-11-23T22:42:00Z","content":"Moodys Analytics chief economist Mark Zandi lamented what couldve been, if President Donald Trump hadnt waged war on trade and immigration. In a social media post on Sunday, he noted that prices have… [+2781 chars]"},{"source":{"id":null,"name":"Investor's Business Daily"},"author":null,"title":"Bitcoin Rises With Futures Due; Three Titans In Focus - Investor's Business Daily","description":"The stock market needs to show a lot of strength after damaging recent losses.","url":"https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-bitcoin-nvidia-apple-eli-lilly/","urlToImage":"https://www.investors.com/wp-content/uploads/2021/04/A1-bitcoin-041221-adobe.jpg","publishedAt":"2025-11-23T22:24:00Z","content":"Information in Investors Business Daily is for informational and educational purposes only and should not be construed as an offer, recommendation, solicitation, or rating to buy or sell securities. … [+1064 chars]"},{"source":{"id":null,"name":"FX Empire"},"author":"James Hyerczyk","title":"Gold (XAUUSD) Price Forecast: Fed Path Puts Spotlight on Crucial $4133.95 Pivot - FXEmpire","description":"Gold analysis shows buyers defending key levels despite a stronger dollar, while the Fed path and the $4133.95 pivot guide the next major gold price move.","url":"https://www.fxempire.com/forecasts/article/gold-xauusd-price-forecast-fed-path-puts-spotlight-on-crucial-4133-95-pivot-1562852","urlToImage":"https://responsive.fxempire.com/v7/_fxempire_/2025/11/Gold_Bear_2.png?func=cover&q=70&width=700","publishedAt":"2025-11-23T21:34:00Z","content":"The market reacted fast. A month ago, we had almost 99% conviction on a December cut. By weeks end? 32%. Thats a full repricing, and you could see it in golds intraday whips. Buyers stepped in early … [+759 chars]"},{"source":{"id":null,"name":"TMZ"},"author":"TMZ Staff","title":"Disney Cruise Passenger Missing, Presumed Dead After Falling Overboard - TMZ","description":"A 73-year-old man is missing after falling overboard off a Disney cruise between Australia and New Zealand.","url":"https://www.tmz.com/2025/11/23/disney-cruise-passenger-missing/","urlToImage":"https://imagez.tmz.com/image/de/16by9/2025/11/23/de1d79b2b0ae41c488c7a4c2a3a35b71_xl.jpg","publishedAt":"2025-11-23T21:30:56Z","content":"A 73-year-old man is missing after falling overboard off a Disney cruise between Australia and New Zealand.\r\nAccording to 7 News Australia, the man -- who hasn't been publicly identified -- fell off … [+567 chars]"},{"source":{"id":null,"name":"nj.com"},"author":"Advance Local Express Desk, Stephanie Loder | NJ Advance Media for NJ.com","title":"Former newspaper printing plant demolished for major N.J. warehouse project - NJ.com","description":"Goodman Group acquired the longtime site of the New York Daily News’ printing plant in Jersey City in 2024.","url":"https://www.nj.com/hudson/2025/11/historic-nj-newspaper-printing-plant-gets-unexpected-second-life-as-huge-warehouse-center.html","urlToImage":"https://www.nj.com/resizer/v2/NQ5GVVKJUNGUVBMNVDDHSVW7QE.jpg?auth=293c9d15d4d3027c2ee3887285fc1472cbbeeecbbc0bfe028f91ad7934f059ac&width=1280&smart=true&quality=90","publishedAt":"2025-11-23T20:00:00Z","content":"A historic Jersey City printing facility that once churned out copies of the New York Daily News is being transformed into a modern logistics complex.\r\nPlans call for the completion of the complex by… [+1326 chars]"},{"source":{"id":null,"name":"The-sun.com"},"author":"Jacob Willeford","title":"America's most affordable grocery stores for Thanksgiving dinner revealed & 5 cost-cutting tips regardless of size - The US Sun","description":"Plus, the average Thanksgiving meal price at 19 retailers nationwide","url":"https://www.the-sun.com/money/15537691/most-affordable-grocery-stores-thanksgiving-dinner/","urlToImage":"https://www.the-sun.com/wp-content/uploads/sites/6/2025/11/jwthanksgivingmealcheapestretailer-op.jpg?quality=90&strip=all&1763907887&w=1920&h=1080&crop=1","publishedAt":"2025-11-23T19:52:01Z","content":"THE final days before Thanksgiving are here, and millions of consumers nationwide are making final purchases for the holiday.\r\nDeals and sales on decor, food and drinks, and more are prominent, but s… [+4118 chars]"},{"source":{"id":null,"name":"CNBC"},"author":"Jim Cramer","title":"Google's new AI model puts OpenAI, the great conundrum of this market, on shakier ground - CNBC","description":"In his Sunday column for Investing Club subscribers, CNBC's Jim Cramer writes about OpenAI and the state of the AI race.","url":"https://www.cnbc.com/2025/11/23/cramer-googles-gemini-puts-openai-on-shakier-ground-with-big-market-implications-.html","urlToImage":"https://image.cnbcfm.com/api/v1/image/108222498-1762449245023-gettyimages-2236546488-STARGATE_DATA_CENTER.jpeg?v=1763922866&w=1920&h=1080","publishedAt":"2025-11-23T19:25:55Z","content":null}]}
+    response = {
+  "status": "ok",
+  "totalResults": 69,
+  "articles": [
+    {
+      "source": {
+        "id": null,
+        "name": "CoinDesk"
+      },
+      "author": "Omkar Godbole, AI Boost",
+      "title": "Bitcoin Price (BTC) News: $40B in ETF Volume Signals Institutional Capitulation - CoinDesk",
+      "description": "The U.S.-listed spot bitcoin ETFs saw a record $40 billion in trading volume last week, with IBIT leading the way.",
+      "url": "https://www.coindesk.com/markets/2025/11/24/bitcoin-etfs-led-by-blackrock-s-ibit-see-record-usd40b-trading-volume-as-institutions-capitulate",
+      "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/3417765811c38a57181abae66a079871b878e500-1920x1080.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+      "publishedAt": "2025-11-24T05:32:37Z",
+      "content": "The 11 U.S.-listed spot bitcoin ETFs shattered trading records last week, with cumulative volumes surpassing $40.32 billion, indicating likely institutional capitulation.\r\nBlackRock's IBIT led the in… [+1112 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Motley Fool"
+      },
+      "author": "Geoffrey Seiler, Geoffrey Seiler",
+      "title": "The Real AI Battle Isn't in Chips -- It's in Compute Efficiency. Here's the Stock Positioned to Win. - The Motley Fool",
+      "description": "The company's structural cost advantage positions it to be the biggest AI winner.",
+      "url": "https://www.fool.com/investing/2025/11/23/the-real-ai-battle-isnt-chips-its-compute-efficien/",
+      "urlToImage": "https://g.foolcdn.com/image/?url=https%3A%2F%2Fg.foolcdn.com%2Feditorial%2Fimages%2F843438%2Fgettyimages-1480633240.jpg&w=1200&op=resize",
+      "publishedAt": "2025-11-24T04:15:00Z",
+      "content": "The company's structural cost advantage positions it to be the biggest AI winner.While investors are looking for who will be the big chip winner in artificial intelligence (AI), that's actually just … [+3980 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "BBC News"
+      },
+      "author": null,
+      "title": "UK 'world's most expensive place' to develop nuclear power - BBC",
+      "description": "Experts criticised “overly complex” rules and called for an overhaul of Britain's nuclear strategy.",
+      "url": "https://www.bbc.com/news/articles/c5yq8jneqpdo",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/8763/live/26c6e190-c8d6-11f0-a4bd-8d4044c2eec7.jpg",
+      "publishedAt": "2025-11-24T03:49:21Z",
+      "content": "Osmond ChiaBusiness reporter\r\nThe Sizewell nuclear power station\r\nThe UK has become the \"most expensive place in the world\" to build nuclear power plants, according to a government review detailing t… [+3352 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "KSL.com"
+      },
+      "author": "Sean Lyngaas and Evan Perez, CNN",
+      "title": "Wall Street banks scramble to assess fallout from hack of real-estate data firm - KSL.com",
+      "description": "Hackers stole a trove of data from a company used by major Wall Street banks for real-estate loans and mortgages, setting off a scramble to determine what was taken and which banks were affected.",
+      "url": "https://www.ksl.com/article/51409606/wall-street-banks-scramble-to-assess-fallout-from-hack-of-real-estate-data-firm",
+      "urlToImage": "https://img.ksl.com/slc/3120/312099/31209950.jpg?filter=kslv2/responsive_story_lg",
+      "publishedAt": "2025-11-24T03:19:42Z",
+      "content": "NEW YORK CITY Hackers stole a trove of data from a company used by major Wall Street banks for real-estate loans and mortgages, setting off a scramble to determine what was taken and which banks were… [+2243 chars]"
+    },
+    {
+      "source": {
+        "id": "bloomberg",
+        "name": "Bloomberg"
+      },
+      "author": "Suvashree Ghosh, Isabelle Lee",
+      "title": "Bitcoin Weakness Persists as Crypto Steadies After Bruising Week - Bloomberg.com",
+      "description": "Bitcoin began the week on the back foot following a prolonged selloff that has put the token on track for its worst month since 2022.",
+      "url": "https://www.bloomberg.com/news/articles/2025-11-24/bitcoin-btc-weakness-persists-as-crypto-steadies-after-bruising-week",
+      "urlToImage": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ibAqfa3z7b18/v0/1200x800.jpg",
+      "publishedAt": "2025-11-24T02:39:50Z",
+      "content": "Bitcoin began the week on the back foot following a prolonged selloff that has put the token on track for its worst month since 2022. \r\nAfter regaining some ground over the weekend, the original cryp… [+157 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "The Seattle Times"
+      },
+      "author": "David Gutman",
+      "title": "Sea-Tac flights make refueling stops; no timeline to fix pipeline leak - The Seattle Times",
+      "description": "The source of the spill remains a mystery and travelers are beginning to see complications as airlines scramble to keep their planes gassed up.",
+      "url": "https://www.seattletimes.com/seattle-news/sea-tac-flights-make-refueling-stops-no-timeline-to-fix-pipeline-leak/",
+      "urlToImage": "https://images.seattletimes.com/wp-content/uploads/2025/11/11232025_tzr_tzr_172144.jpg?d=1200x630",
+      "publishedAt": "2025-11-24T02:05:55Z",
+      "content": "Nearly two weeks after a leak shut down the pipeline that delivers jet fuel to Seattle-Tacoma International Airport, the source of the spill remains a mystery and travelers are beginning to see compl… [+2642 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "NPR"
+      },
+      "author": "",
+      "title": "The U.S. Transportation Department is urging air passengers to be on good behavior - NPR",
+      "description": "Transportation Secretary Sean Duffy wants air travelers to be nice this holiday season. A new DOT campaign asks passengers to help each other and thank flight attendants.",
+      "url": "https://www.npr.org/2025/11/23/nx-s1-5618289/sean-duffy-flights-civility-behavior-unruly-passengers-airports",
+      "urlToImage": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/473x266+0+201/resize/1400/quality/100/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fa1%2F3d%2Fc84f84c74845b1343045da84ad75%2Fduffy-air-civility.jpg",
+      "publishedAt": "2025-11-24T02:04:36Z",
+      "content": "The U.S. Department of Transportation is launching what it's calling a \"civility campaign\" to promote good behavior on flights and at airports, as the busy holiday travel season gets underway. The de… [+1692 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Tipranks.com"
+      },
+      "author": "Shalu Saraf",
+      "title": "Alibaba (BABA) Will Report Its Q2 Earnings on November 25. Here Is What to Expect - TipRanks",
+      "description": "Chinese e-commerce giant Alibaba ($BABA) will report Q2 FY26 earnings on Tuesday, November 25. The stock is up more than 83% year-to-date, supported by stronger fin...",
+      "url": "https://www.tipranks.com/news/alibaba-baba-will-report-its-q2-earnings-tomorrow-here-is-what-to-expect",
+      "urlToImage": "https://blog.tipranks.com/wp-content/uploads/2025/11/alibaba-4-750x406.jpg",
+      "publishedAt": "2025-11-24T00:28:47Z",
+      "content": ""
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "CNBC"
+      },
+      "author": "Anniek Bao",
+      "title": "Australia's Qube Holdings' shares jump 20% as Macquarie proposes $7.5 billion takeover deal - CNBC",
+      "description": "Macquarie has offered to acquire Qube for AU$5.2 per share in cash, representing a nearly 28% premium to Qube's closing level of AU$4.07 on Friday.",
+      "url": "https://www.cnbc.com/2025/11/24/australia-qube-holdings-shares-jump-macquarie-takeover-deal.html",
+      "urlToImage": "https://image.cnbcfm.com/api/v1/image/108230648-1763941519081-gettyimages-2220275603-AUSTRALIA_MACQUARIE.jpeg?v=1763941533&w=1920&h=1080",
+      "publishedAt": "2025-11-24T00:16:00Z",
+      "content": "Australia's Qube Holdings announced on Monday that Macquarie Asset Management had submitted a non-binding proposal to acquire the logistics company at an enterprise value of 11.6 billion Australian d… [+3274 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Tipranks.com"
+      },
+      "author": "Marty Shtrubel",
+      "title": "Prediction: ‘XRP Price Will Crash Below $1,’ Says Investor - TipRanks",
+      "description": "The bears are officially in charge of the cryptosphere right now with coins across the board seemingly searching for a bottom. Only about a month and a half ago Bit...",
+      "url": "https://www.tipranks.com/news/prediction-xrp-price-will-crash-below-1-says-investor",
+      "urlToImage": "https://blog.tipranks.com/wp-content/uploads/2025/11/XRP-1123-750x406.jpg",
+      "publishedAt": "2025-11-23T23:43:21Z",
+      "content": ""
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "CNBC"
+      },
+      "author": "Yun Li",
+      "title": "Dow futures rise 200 points as market attempts rebound into the holiday week: Live updates - CNBC",
+      "description": "The stock market is closed on Thursday for Thanksgiving Day, and ends early at 1 p.m. ET on Friday.",
+      "url": "https://www.cnbc.com/2025/11/23/stock-market-today-live-updates.html",
+      "urlToImage": "https://image.cnbcfm.com/api/v1/image/107099147-NYSE-Trading-Floor-OB-Photo-220804-CC-PRESS-4.jpg?v=1730846839&w=1920&h=1080",
+      "publishedAt": "2025-11-23T23:12:00Z",
+      "content": "Stock futures climbed in overnight trading Sunday as the market seeks to rebound into the Thanksgiving holiday week after a slide that's knocked the air out of this year's AI bull run.\r\nFutures on th… [+1408 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "BBC News"
+      },
+      "author": null,
+      "title": "Japan's gamble to turn island of flowers into global chip hub - BBC",
+      "description": "The country once led the world in semiconductors and electronics, but over the years it fell behind Taiwan, South Korea and China.",
+      "url": "https://www.bbc.com/news/articles/c8676qpxgnqo",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/83c4/live/46b3b420-c5b5-11f0-b602-51c15dd35a8c.jpg",
+      "publishedAt": "2025-11-23T23:11:13Z",
+      "content": "Suranjana TewariAsia business correspondent, Hokkaido, Japan\r\nHokkaido is a tourism and agricultural region, but Rapidus is making chips there too \r\nThe island of Hokkaido has long been an agricultur… [+8917 chars]"
+    },
+    {
+      "source": {
+        "id": "fortune",
+        "name": "Fortune"
+      },
+      "author": "Jason Ma",
+      "title": "'It didn't have to be this way' — Top economist warns affordability crisis will continue - Fortune",
+      "description": "\"Consumer price inflation is near 3%, well above the Fed’s inflation target, and everything points to even higher inflation dead-ahead.\"",
+      "url": "https://fortune.com/2025/11/23/affordability-crisis-inflation-outlook-trump-tariffs-immigration-crackdown-prices/",
+      "urlToImage": "https://fortune.com/img-assets/wp-content/uploads/2025/11/GettyImages-2234085635-e1763932686887.jpg?resize=1200,600",
+      "publishedAt": "2025-11-23T22:42:00Z",
+      "content": "Moodys Analytics chief economist Mark Zandi lamented what couldve been, if President Donald Trump hadnt waged war on trade and immigration. In a social media post on Sunday, he noted that prices have… [+2781 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Investor's Business Daily"
+      },
+      "author": null,
+      "title": "Bitcoin Rises With Futures Due; Three Titans In Focus - Investor's Business Daily",
+      "description": "The stock market needs to show a lot of strength after damaging recent losses.",
+      "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-bitcoin-nvidia-apple-eli-lilly/",
+      "urlToImage": "https://www.investors.com/wp-content/uploads/2021/04/A1-bitcoin-041221-adobe.jpg",
+      "publishedAt": "2025-11-23T22:24:00Z",
+      "content": "Information in Investors Business Daily is for informational and educational purposes only and should not be construed as an offer, recommendation, solicitation, or rating to buy or sell securities. … [+1064 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "FX Empire"
+      },
+      "author": "James Hyerczyk",
+      "title": "Gold (XAUUSD) Price Forecast: Fed Path Puts Spotlight on Crucial $4133.95 Pivot - FXEmpire",
+      "description": "Gold analysis shows buyers defending key levels despite a stronger dollar, while the Fed path and the $4133.95 pivot guide the next major gold price move.",
+      "url": "https://www.fxempire.com/forecasts/article/gold-xauusd-price-forecast-fed-path-puts-spotlight-on-crucial-4133-95-pivot-1562852",
+      "urlToImage": "https://responsive.fxempire.com/v7/_fxempire_/2025/11/Gold_Bear_2.png?func=cover&q=70&width=700",
+      "publishedAt": "2025-11-23T21:34:00Z",
+      "content": "The market reacted fast. A month ago, we had almost 99% conviction on a December cut. By weeks end? 32%. Thats a full repricing, and you could see it in golds intraday whips. Buyers stepped in early … [+759 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "TMZ"
+      },
+      "author": "TMZ Staff",
+      "title": "Disney Cruise Passenger Missing, Presumed Dead After Falling Overboard - TMZ",
+      "description": "A 73-year-old man is missing after falling overboard off a Disney cruise between Australia and New Zealand.",
+      "url": "https://www.tmz.com/2025/11/23/disney-cruise-passenger-missing/",
+      "urlToImage": "https://imagez.tmz.com/image/de/16by9/2025/11/23/de1d79b2b0ae41c488c7a4c2a3a35b71_xl.jpg",
+      "publishedAt": "2025-11-23T21:30:56Z",
+      "content": "A 73-year-old man is missing after falling overboard off a Disney cruise between Australia and New Zealand.\r\nAccording to 7 News Australia, the man -- who hasn't been publicly identified -- fell off … [+567 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "nj.com"
+      },
+      "author": "Advance Local Express Desk, Stephanie Loder | NJ Advance Media for NJ.com",
+      "title": "Former newspaper printing plant demolished for major N.J. warehouse project - NJ.com",
+      "description": "Goodman Group acquired the longtime site of the New York Daily News’ printing plant in Jersey City in 2024.",
+      "url": "https://www.nj.com/hudson/2025/11/historic-nj-newspaper-printing-plant-gets-unexpected-second-life-as-huge-warehouse-center.html",
+      "urlToImage": "https://www.nj.com/resizer/v2/NQ5GVVKJUNGUVBMNVDDHSVW7QE.jpg?auth=293c9d15d4d3027c2ee3887285fc1472cbbeeecbbc0bfe028f91ad7934f059ac&width=1280&smart=true&quality=90",
+      "publishedAt": "2025-11-23T20:00:00Z",
+      "content": "A historic Jersey City printing facility that once churned out copies of the New York Daily News is being transformed into a modern logistics complex.\r\nPlans call for the completion of the complex by… [+1326 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "The-sun.com"
+      },
+      "author": "Jacob Willeford",
+      "title": "America's most affordable grocery stores for Thanksgiving dinner revealed & 5 cost-cutting tips regardless of size - The US Sun",
+      "description": "Plus, the average Thanksgiving meal price at 19 retailers nationwide",
+      "url": "https://www.the-sun.com/money/15537691/most-affordable-grocery-stores-thanksgiving-dinner/",
+      "urlToImage": "https://www.the-sun.com/wp-content/uploads/sites/6/2025/11/jwthanksgivingmealcheapestretailer-op.jpg?quality=90&strip=all&1763907887&w=1920&h=1080&crop=1",
+      "publishedAt": "2025-11-23T19:52:01Z",
+      "content": "THE final days before Thanksgiving are here, and millions of consumers nationwide are making final purchases for the holiday.\r\nDeals and sales on decor, food and drinks, and more are prominent, but s… [+4118 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "CNBC"
+      },
+      "author": "Jim Cramer",
+      "title": "Google's new AI model puts OpenAI, the great conundrum of this market, on shakier ground - CNBC",
+      "description": "In his Sunday column for Investing Club subscribers, CNBC's Jim Cramer writes about OpenAI and the state of the AI race.",
+      "url": "https://www.cnbc.com/2025/11/23/cramer-googles-gemini-puts-openai-on-shakier-ground-with-big-market-implications-.html",
+      "urlToImage": "https://image.cnbcfm.com/api/v1/image/108222498-1762449245023-gettyimages-2236546488-STARGATE_DATA_CENTER.jpeg?v=1763922866&w=1920&h=1080",
+      "publishedAt": "2025-11-23T19:25:55Z",
+      "content": null
+    }
+  ]
+}
 
     return jsonify(content=response)
 
