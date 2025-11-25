@@ -264,7 +264,7 @@ def get_news():
   ]
 }
 
-    return jsonify(content=response)
+    return jsonify(response)
 
 if __name__ == "__main__":
     app.run()
